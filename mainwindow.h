@@ -30,6 +30,8 @@ private slots:
 
     void on_ButtonMultiplica_clicked();
 
+    void on_actionsobre_changed();
+
 private:
     Ui::MainWindow *ui;
 };

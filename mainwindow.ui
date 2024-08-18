@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>341</width>
-    <height>345</height>
+    <width>420</width>
+    <height>360</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -17,9 +17,9 @@
    <widget class="QWidget" name="">
     <property name="geometry">
      <rect>
-      <x>30</x>
+      <x>40</x>
       <y>30</y>
-      <width>271</width>
+      <width>342</width>
       <height>241</height>
      </rect>
     </property>
@@ -142,9 +142,9 @@
       </layout>
      </item>
      <item>
-      <widget class="QPushButton" name="zeraResultado">
+      <widget class="QPushButton" name="ZeraResultado">
        <property name="text">
-        <string>ZERAR</string>
+        <string>SOBRE</string>
        </property>
       </widget>
      </item>
@@ -156,7 +156,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>341</width>
+     <width>420</width>
      <height>21</height>
     </rect>
    </property>
@@ -169,11 +169,21 @@
     <property name="title">
      <string>About</string>
     </property>
+    <addaction name="actionsobre"/>
+    <addaction name="separator"/>
    </widget>
    <addaction name="menuPrimeiroPrograma"/>
    <addaction name="menuAbout"/>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionsobre">
+   <property name="icon">
+    <iconset theme="QIcon::ThemeIcon::MailSend"/>
+   </property>
+   <property name="text">
+    <string>sobre</string>
+   </property>
+  </action>
  </widget>
  <resources/>
  <connections/>
